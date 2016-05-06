@@ -28,7 +28,7 @@ public:
     std::string statement() const;
     
     //calculates amount for current statement
-    double amountFor(const Rental&);
+    double amountFor(const Rental&) const;
 
 private:
     std::string name;
